@@ -11,14 +11,14 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      // '/index': {
-      //   target: 'http://125.208.12.66:9877/',//设置你调用的接口域名和端口号 别忘了加http、https
-      //   changeOrigin: true,//是否跨域
-      //   secure: true, // 允许https请求
-      //   pathRewrite: {
-      //   '^/index': ''//这里理解成用‘/api’代替target里面的地址
-      //   }
-      // },
+      '/index': {
+        target: 'http://125.208.12.66:9877/',//设置你调用的接口域名和端口号 别忘了加http、https
+        changeOrigin: true,//是否跨域
+        secure: true, // 允许https请求
+        pathRewrite: {
+        '^/index': ''//这里理解成用‘/api’代替target里面的地址
+        }
+      },
       '/api': {
         target: 'https://fmstest.csc.com.cn/',//设置你调用的接口域名和端口号 别忘了加http、https
         changeOrigin: true,//是否跨域
@@ -27,14 +27,14 @@ module.exports = {
         '^/api': ''//这里理解成用‘/api’代替target里面的地址
         }
       },
-      '/index': {
-        target: 'http://localhost:8098/',//设置你调用的接口域名和端口号 别忘了加http、https
-        changeOrigin: true,//是否跨域
-        secure: true, // 允许https请求
-        pathRewrite: {
-        '^/index': ''//这里理解成用‘/api’代替target里面的地址
-        }
-        }
+      // '/index': {
+      //   target: 'http://localhost:8098/',//设置你调用的接口域名和端口号 别忘了加http、https
+      //   changeOrigin: true,//是否跨域
+      //   secure: true, // 允许https请求
+      //   pathRewrite: {
+      //   '^/index': ''//这里理解成用‘/api’代替target里面的地址
+      //   }
+      //   }
 
     },
 
