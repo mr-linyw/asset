@@ -159,6 +159,7 @@ import {mouseover,mouseout,mousemove} from '@/components/utilJs/ellipsis'
             that.current = res.result.current;
             that.firstData=[];
             that.secondData=[];
+            console.log(1)
              const compare = function(a, b) {
                return moment(a.createTime)>moment(b.createTime);
            };
