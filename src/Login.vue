@@ -9,7 +9,7 @@
         <div style="height:38px;"></div>
 
         <div class="login_form_input">
-            <a-input v-model="userName" v-focus="userFocus" style="width:328px;" placeholder="请输入账号"/>
+            <a-input class="input" round v-model="userName" v-focus="userFocus" style="width:328px;" placeholder="请输入账号"/>
             <div style="height:18px;"></div>
             <a-input-password v-model="password" style="width:328px;" placeholder="登录密码" />
         </div>
@@ -28,6 +28,7 @@
   export default {
     data() {
       return {
+        userFocus:true,
         userName: '',
         password: '',
         isBtnLoading: false
@@ -113,5 +114,8 @@ body{
       width: 328px;
       color: #000;
       background:#CD3833;
+  }
+  .login_form_input .ant-input{
+    border-radius:40px !important;
   }
 </style>
