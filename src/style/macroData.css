@@ -1,0 +1,33 @@
+
+.macroData{
+  text-align: left;
+  height: 100%;
+  width: 100%;
+}
+
+.macroData-top{
+  height: 900px;
+  text-align: left;
+  background: #FFFFFF;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+}
+/* .top{
+  margin-top: 14px;
+} */
+.macroData-left{
+  font-size: 14px;
+  float: left;
+  width: 50%;
+}
+.macroData-right{
+  font-size: 14px;
+  float: right;
+  width: 50%;
+}
+.ant-collapse-header{
+  height:30px;
+  line-height: 8px !important;
+}

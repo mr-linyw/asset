@@ -1,0 +1,79 @@
+
+.ordermodal{
+   padding-left: 1%;
+   padding-right: 1%;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px 1px;
+    overflow-x:auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    width: 800px;
+    background: #DCDCDC;
+}
+.formclass{
+  text-align: left;
+  height: 110px;
+}
+.p-class{
+  font-size: 15px;
+}
+.span-class{
+  margin: 5px 0px 5px 0px ;
+}
+.el-divider--horizontal{
+  margin: 0px 0px !important;
+}
+.el-divider{
+  background-color:#888888 !important;
+}
+.orderleft{
+  font-size: 15px;
+  width:46%;
+  margin-top: 8px;
+  float: left;
+  text-align: left;
+}
+.orderright{
+  font-size: 15px;
+  float: right;
+  width: 46%;
+  margin-top: 10px;
+  text-align: left;
+}
+.ordertable{
+  margin: 5px 5px 0px 0px ;
+}
+.order-shang{
+height: 300px;
+}
+.order-xia{
+  margin-top: 10px;
+  height: 100px;
+}
+.ordertables .ant-table-content .ant-table-align-center{
+  height: 20px !important;
+}
+.roder-footer{
+
+  margin: 10px 10px 5px 5px ;
+}
+.order-tixing{
+  margin-left: 20px;
+  margin-top: 1px;
+  height: 22px;
+ text-align: left;
+}
+.order-details{
+  margin-top: 30px;
+  font-size: 13px;
+  text-align: center;
+}
+.details-ts{
+
+list-style:none;
+font-size: 13px;
+}
+.aa{
+  text-align: left;
+}
